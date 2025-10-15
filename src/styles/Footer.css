@@ -1,0 +1,33 @@
+.footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 15px;
+  color: #666;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(8px);
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+.author-link {
+  color: #0078ff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.author-link:hover {
+  color: #005fcc;
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
