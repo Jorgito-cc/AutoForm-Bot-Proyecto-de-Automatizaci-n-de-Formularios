@@ -1,16 +1,34 @@
-# React + Vite
+# 🤖 AutoForm Bot — Proyecto de Automatización de Formularios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**AutoForm Bot** es una herramienta inteligente desarrollada en **React + Node.js + Playwright** que permite automatizar el llenado masivo de formularios de **Google Forms** con datos aleatorios realistas, útil para pruebas de usabilidad, encuestas y análisis de formularios sin intervención manual.
 
-Currently, two official plugins are available:
+Este proyecto fue creado con fines **académicos y experimentales**, explorando el uso de automatización web y generación dinámica de datos en entornos reales.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧩 Objetivo del proyecto
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+El propósito de **AutoForm Bot** es ofrecer una interfaz amigable donde el usuario puede:
 
-## Expanding the ESLint configuration
+- Ingresar la **URL** de un formulario de Google Forms.
+- Definir la **cantidad de envíos** que desea realizar.
+- Visualizar en tiempo real los **logs de ejecución del bot**, incluyendo el progreso y confirmaciones de envío.
+- Detener la ejecución en cualquier momento mediante un **botón de cancelación.**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Esto permite realizar **pruebas automatizadas** de usabilidad, carga y respuesta de formularios en entornos controlados, sin necesidad de llenar los campos manualmente.
+
+---
+
+## 🧠 Tecnologías utilizadas
+
+### 🖥️ Frontend
+- ⚛️ **React 19 (Vite)**
+- 🎨 **CSS3 + Poppins Font**
+- 🧩 **Hooks personalizados** (`useState`, `useEffect`)
+- 💬 Streaming en tiempo real con `fetch()` y `ReadableStream`
+- 🧠 Diseño minimalista y responsivo (UI/UX moderna)
+
+
+
+
+
