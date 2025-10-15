@@ -55,7 +55,7 @@ const cancelBot = async () => {
   }
 
   try {
-    await fetch("http://localhost:3000/cancel-bot", { method: "POST" });
+    await fetch("https://autoform-bot-backend-de-automatizaci-n-con-pla-production.up.railway.app/cancel-bot", { method: "POST" });
     setLogs((prev) => prev + "\n🛑 Bot detenido desde el servidor.");
   } catch (err) {
     setLogs((prev) => prev + "\n⚠️ Error al cancelar en el servidor.");
