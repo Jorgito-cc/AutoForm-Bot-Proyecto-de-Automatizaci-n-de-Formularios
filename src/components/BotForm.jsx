@@ -21,7 +21,7 @@ export default function BotForm() {
     controllerRef.current = new AbortController();
 
     try {
-      const res = await fetch("https://autoform-bot-backend-de-automatizaci-n-con-pla-production.up.railway.app/run-bot", {
+      const res = await fetch("https://autoform-bot-backend-de-automatizaci-n-con-pla-production.up.railway.app/run-bot", { // verificar si la url da
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ formUrl, cantidad }),
