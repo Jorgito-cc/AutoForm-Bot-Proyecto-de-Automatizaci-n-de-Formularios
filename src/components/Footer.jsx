@@ -7,7 +7,7 @@ export default function Footer() {
       <p>
         💻 Desarrollado por{" "}
         <a
-          href="https://github.com/beimarM1"
+          href="https://github.com/Jorgito-cc/AutoForm-Bot---Backend-de-Automatizaci-n-con-Playwright"
           target="_blank"
           rel="noopener noreferrer"
           className="author-link"
